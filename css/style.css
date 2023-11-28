@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+
+/***************************************
+*            Gloval CSS Start
+*****************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/***************************************
+*            Gloval CSS End
+*****************************************/
+
+
+
+/***************************************
+*    Header & Banner CSS start
+*****************************************/
+
+
+
+
+
+.header-banner-section {
+
+    width: 100%;
+    height: 100vh;
+    background: url(../image/background.png) center center no-repeat;
+    background-size: cover;
+
+}
+
+
+.header-banner-section .logo {
+    margin-right: 8px;
+}
+
+
+
+
+.header-banner-section .nav-link {
+
+    color: #fffefe;
+    transition: 0.5s;
+}
+
+
+.header-banner-section .nav-link:hover {
+
+    color: #fffefe;
+    background: url(../image/homebottom.png) center bottom no-repeat;
+    transition: 0.5s;
+}
+
+
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #fffefe;
+    background: url(../image/homebottom.png) center bottom no-repeat;
+}
+
+
+
+
+/**************************
+*  mid-banner section start 
+*****************************/
+
+
+
+.header-banner-section .banner {
+
+    margin-top: 85px;
+
+}
+
+
+
+.header-banner-section .banner h6 {
+
+    color: #008ed6;
+
+}
+
+
+.header-banner-section .banner h1 {
+
+    color: #e0e0e0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+
+
+.header-banner-section .banner p {
+
+    color: #999999;
+
+}
+
+
+
+
+.header-banner-section .banner .btn {
+
+    margin-left: -12px;
+    margin-top: 30px;
+
+}
+
+.header-banner-section .banner .btn button {
+    background: transparent;
+    padding: 10px;
+    color: #cce8f7;
+    transition: 0.5s;
+}
+
+
+.header-banner-section .banner .btn button:hover {
+
+    background: #008ed6;
+
+    transition: 0.5s;
+
+}
+
+
+
+/**************************
+*  mid-banner section end 
+*****************************/
+
+
+
+/***************************************
+*         Header & Banner CSS end
+*****************************************/
+
+
+
+
+
+/***************************************
+*         feature CSS start
+*****************************************/
+
+
+.feature-section .container-1 {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+
+.feature-section .container-1 h6 {
+
+    color: #2ca4e0;
+    font-weight: 700;
+}
+
+
+.feature-section .container-1 h2 {
+    font-weight: 600;
+
+}
+
+
+.feature-section .container-2 {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+    flex-basis: 33.33%;
+
+
+
+}
+
+
+.feature-section .container-2 .box {
+margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+
+
+}
+
+
+.feature-section .container-2 .box i {
+    color: #008ed6;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+border: 1px solid #b1acac;
+    border-radius: 80%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+.feature-section .container-2 .box h4 {
+    color: #1a1a1a;
+    text-transform: capitalize;
+    line-height: 50px;
+
+}
+
+.feature-section .container-2 .box p {
+    color: #999999;
+
+
+}
+
+
+
+/***************************************
+*         feature CSS end
+*****************************************/
