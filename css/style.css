@@ -131,10 +131,10 @@ body {
 
 
 .header-banner-section .banner .pair-btn {
-    
-    padding: 50px 0px ;
+
+    padding: 50px 0px;
     text-transform: uppercase;
-   
+
 }
 
 
@@ -145,11 +145,11 @@ body {
 .header-banner-section .banner .pair-btn .btn-primary {
 
     background: #008ed6;
-   padding: 12px 22px;
-   margin-right: 8px;
-   font-size: 14px !important;
-   border-radius: 3px  !important;
-   transition: 0.5s;
+    padding: 12px 22px;
+    margin-right: 8px;
+    font-size: 14px !important;
+    border-radius: 3px !important;
+    transition: 0.5s;
 }
 
 .header-banner-section .banner .pair-btn .btn-primary:hover {
@@ -163,20 +163,15 @@ body {
 
 
 
-
-
-
-
-
 .header-banner-section .banner .pair-btn .btn-success {
 
     background: transparent;
-   padding: 12px 22px;
-   margin-right: 8px;
-   font-size: 14px !important;
-   border-radius: 3px  !important;
-   border: 1px solid #999 ;
-   transition: 0.5s;
+    padding: 12px 22px;
+    margin-right: 8px;
+    font-size: 14px !important;
+    border-radius: 3px !important;
+    border: 1px solid #999;
+    transition: 0.5s;
 }
 
 
@@ -186,9 +181,9 @@ body {
 .header-banner-section .banner .pair-btn .btn-success:hover {
 
     background: #008ed6;
-   
-   border: 1px solid #008ed6 ;
-   transition: 0.5s;
+
+    border: 1px solid #008ed6;
+    transition: 0.5s;
 
 }
 
@@ -231,8 +226,17 @@ body {
 *         feature-1 CSS start
 *****************************************/
 
+.feature-section-1 {
+    margin: auto;
+    width: 100%;
 
-.feature-section-1 .container-1 {
+}
+
+
+
+
+
+.feature-section-1 .container {
     margin-top: 50px;
     text-align: center;
     justify-content: center;
@@ -241,14 +245,14 @@ body {
 }
 
 
-.feature-section-1 .container-1 h6 {
+.feature-section-1 .container h6 {
 
     color: #2ca4e0;
     font-weight: 700;
 }
 
 
-.feature-section-1 .container-1 h2 {
+.feature-section-1 .container h2 {
     font-weight: 600;
 
 }
@@ -310,7 +314,7 @@ body {
 
     width: 100%;
     padding: 100px 0px;
-height: auto;
+    height: auto;
 
 }
 
@@ -338,8 +342,10 @@ height: auto;
 
 .feature-section-2 {
 
+
+
     margin: auto;
-    width: 100%;
+    width: 94%;
 
 }
 
@@ -410,6 +416,25 @@ height: auto;
 }
 
 
+/***************************************
+*         feature-2 CSS end
+*****************************************/
+
+
+/***************************************
+*         feature-3 CSS start
+*****************************************/
+
+
+
+.feature-section-3 {
+    margin: auto;
+    width: 100%;
+    background: #f2f2f2;
+
+
+}
+
 
 .feature-section-3 .container-1 .row {
 
@@ -470,15 +495,814 @@ height: auto;
 
 
 
-
-
-
-
 /***************************************
-*         feature-2 CSS end
+*         feature-3 CSS end
 *****************************************/
 
 
 /***************************************
 *         feature CSS end
+*****************************************/
+
+
+
+
+/***************************************
+*         slider-section CSS start
+*****************************************/
+
+
+
+
+.slider-section {
+    background: url(../image/sliderbgi.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    padding: 80px 0px;
+    color: #f4f4f4;
+}
+
+
+
+
+.slider-section .container {
+    margin: auto;
+    width: 100%;
+
+}
+
+.slider-section .container .row {}
+
+
+.slider-section .container .row .col-lg-12 {}
+
+.slider-section .container .row .col-lg-12 .title {
+    padding-top: ;
+
+    text-align: center;
+}
+
+
+.slider-section .container .row .col-lg-12 .title h6 {
+
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 650;
+}
+
+
+
+.slider-section .container .row .col-lg-12 .title h2 {
+
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+
+
+
+.slider-section .container .row .col-lg-12 .title h2 {
+
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+/******* ************
+   sliding iteams
+*********************/
+
+
+
+.slider-section .container .owl-carousel,
+.owl-theme {
+
+
+    padding: 50px 0px;
+    margin-left: 60px;
+
+
+}
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item {}
+
+
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item .col-12 {}
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item .col-12 p {
+
+    width: 78%;
+    font-style: italic;
+    font-size: 15px;
+    color: #e6d8d8;
+}
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item .col-12 .row {
+
+    font-style: normal;
+
+    padding-bottom: 10px;
+}
+
+
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item .col-12 .row .col-2 img {
+    width: 95%;
+}
+
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item .col-12 .row .col-10 {}
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item .col-12 .row .col-10 p {
+    font-style: normal;
+    line-height: -10px;
+}
+
+.slider-section .container .owl-carousel,
+.owl-theme .row,
+.item .col-12 .row .col-10 h6 {
+
+    font-size: 12px;
+    color: white;
+
+
+}
+
+
+
+/***************************************
+*         slider-section CSS end
+*****************************************/
+
+
+
+/***************************************
+*         slider-btn CSS start
+*****************************************/
+
+
+
+
+.slider-btn {
+
+    background-color: #1a1a1a;
+    width: 100%;
+
+}
+
+
+.slider-btn .container {}
+
+
+.slider-btn .container .row {}
+
+.slider-btn .container .row .col-8 {
+    display: flex;
+
+}
+
+
+.slider-btn .container .row .col-8 h2 {
+
+    padding: 50px 0px;
+
+
+
+}
+
+
+.slider-btn .container .row .col-8 .left {
+
+
+    color: #f2f2f2;
+    padding-right: 4px;
+
+
+}
+
+.slider-btn .container .row .col-8 .right {
+    font-weight: 300;
+    padding-left: 4px;
+    color: #c9bdbd;
+
+
+}
+
+
+
+.slider-btn .container .row .col-4 {}
+
+
+.slider-btn .container .row .col-4 .pair-btn {
+
+    padding: 50px 0px;
+    text-transform: uppercase;
+
+}
+
+
+
+.slider-btn .container .row .col-4 .pair-btn .btn-primary {
+
+    background: #008ed6;
+    padding: 12px 22px;
+    margin-right: 8px;
+    font-size: 14px !important;
+    border-radius: 3px !important;
+    transition: 0.5s;
+}
+
+.slider-btn .container .row .col-4 .pair-btn .btn-primary:hover {
+
+    background: transparent;
+    border: 1px solid #999;
+    transition: 0.5s;
+
+}
+
+
+
+.slider-btn .container .row .col-4 .pair-btn .btn-success {
+
+    background: transparent;
+    padding: 12px 22px;
+    margin-right: 8px;
+    font-size: 14px !important;
+    border-radius: 3px !important;
+    border: 1px solid #999;
+    transition: 0.5s;
+}
+
+
+.slider-btn .container .row .col-4 .pair-btn .btn-success:hover {
+
+    background: #008ed6;
+
+    border: 1px solid #008ed6;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+/***************************************
+*         slider-btn CSS end
+*****************************************/
+
+
+
+
+
+
+/***************************************
+*         card-section CSS start
+*****************************************/
+
+
+.card-section {
+
+
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    padding: 80px 0px;
+
+
+
+}
+
+
+
+
+.card-section .container {
+    margin: auto;
+    width: 100%;
+
+
+}
+
+
+
+
+.card-section .container .row {}
+
+
+.card-section .container .row .col-lg-12 {}
+
+.card-section .container .row .col-lg-12 .title {
+    padding-top: ;
+
+    text-align: center;
+}
+
+
+.card-section .container .row .col-lg-12 .title h6 {
+
+    text-transform: uppercase;
+    color: #008ed6;
+    font-weight: 650;
+}
+
+
+
+.card-section .container .row .col-lg-12 .title h2 {
+
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/***************************************
+*         card-section - items CSS 
+*****************************************/
+
+
+
+
+.card-section .container .row .col-3 {
+    padding-top: 50px;
+    margin: 0px -80px;
+
+    margin-left: 50px;
+}
+
+
+
+
+
+.card-section .container .row .col-3 .custom-card {
+
+    border: 1px solid #d5d7de;
+    text-align: center;
+    margin: 0px 20px 0px;
+    padding: auto;
+}
+
+/*********************************** hover ***********************/
+
+.card-section .container .row .col-3 .custom-card:hover .c-header h2 {
+    color: #2ca4e0;
+
+
+}
+
+.card-section .container .row .col-3 .custom-card:hover .c-body {
+    background-color: #2ca4e0;
+    color: white;
+}
+
+.card-section .container .row .col-3 .custom-card:hover .c-body p {
+    background-color: #2ca4e0;
+    color: white;
+}
+
+
+
+.card-section .container .row .col-3 .custom-card:hover .c-footer a {
+    background-color: #2ca4e0;
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+/*********************************** hover ***********************/
+
+.card-section .container .row .col-3 .custom-card .c-header {
+
+    border-bottom: 1px solid #d5d7de;
+
+    padding: 11px 0px 4px;
+}
+
+
+.card-section .container .row .col-3 .custom-card .c-header h2 {
+
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+
+
+.card-section .container .row .col-3 .custom-card .c-body {
+
+    border-bottom: 1px solid #d5d7de;
+    padding: 11px 0px 4px;
+}
+
+
+
+.card-section .container .row .col-3 .custom-card .c-body h1 {
+
+    font-weight: 700;
+}
+
+
+.card-section .container .row .col-3 .custom-card .c-body h1 sup {}
+
+
+
+
+.card-section .container .row .col-3 .custom-card .c-body p {
+
+    color: #999;
+}
+
+
+
+
+
+.card-section .container .row .col-3 .custom-card .c-footer {
+
+    padding-bottom: 20px;
+}
+
+.card-section .container .row .col-3 .custom-card .c-footer p {
+    margin: 0% 14% 0%;
+    padding: 25px 0px;
+    color: #999;
+}
+
+
+.card-section .container .row .col-3 .custom-card .c-footer a {
+
+    border: 1px solid #d5d7de;
+    background: white;
+    color: #008ed6;
+    border-radius: 0;
+    border-radius: 5px !important;
+    font-weight: 700;
+    padding: 5px 20px;
+
+
+}
+
+
+
+/***************************************
+*         card-section CSS end
+*****************************************/
+
+
+
+
+
+
+/***************************************
+*         contact-section CSS start
+*****************************************/
+
+
+
+.contact-section {
+
+    background: #ededed;
+    width: 100%;
+    height: 80vh;
+    margin: 120px 0px;
+
+}
+
+
+
+.contact-section .row-1 {
+
+}
+
+
+
+.contact-section .row-1 .col-12 {
+
+    padding-top: 40px;
+
+    text-align: center;
+
+}
+
+
+.contact-section .row-1 .col-12 .title {
+
+   
+
+}
+
+.contact-section .row-1 .col-12 .title h6 {
+color: #008ed6;
+   font-weight: 700;
+}
+
+.contact-section .row-1 .col-12 .title h2{
+
+   font-weight: 600;
+
+}
+
+
+
+.contact-section .row-2 {
+    display: flex;padding-top: 30px;
+
+}
+
+
+
+.contact-section .row-2 .col-4 {
+
+    justify-content: center;
+
+    text-align: center;
+
+}
+
+
+
+.contact-section .row-2 .col-4 i {
+
+    color: #008ed6;
+    font-size: 30px;
+    padding-bottom: 20px;
+
+}
+
+.contact-section .row-2 .col-4 p {
+
+    color: #999999;
+    line-height: 10px;
+    
+
+}
+
+
+
+/***************************************
+*         contact-section CSS end
+*****************************************/
+
+
+
+
+
+/***************************************
+*         form-section CSS start
+*****************************************/   
+
+
+.contact-section .parent{
+    position: relative;
+ }
+ 
+ .contact-section .parent .child{
+    position: absolute;
+    
+ }
+
+ .contact-section  .parent .child-1{
+    position: absolute;
+    z-index: 1;
+    
+    
+ }
+
+ 
+
+
+
+
+.form-section{
+   margin-top: 30px;
+   margin-right: 20px;
+}
+
+
+
+
+
+.form-section  .main-box{
+    width: 100%;
+   background: #1a1a1a;
+margin: auto;
+display: flex;
+
+margin-left: 170px;
+
+
+
+}
+
+
+.form-section .main-box .form-section {
+    background-color: #1a1a1a;
+    color: #444348;
+    padding-top: 30px;
+    
+}
+
+
+
+.form-section .main-box .form-section .left{
+    background-color: #1a1a1a;
+    color: #444348;
+margin-right: -10px;
+    padding: 10px 48px 25px;
+    
+}
+
+
+
+
+
+.form-section .main-box .form-section .left .name input{
+    border: 1px solid #444348;
+    background: #1a1a1a;
+    padding: 13px 35px;
+    text-transform: uppercase;
+}
+
+
+.form-section .main-box .form-section .left .email input{
+    border: 1px solid #444348;
+    background: #1a1a1a;
+    padding: 13px 35px;
+    text-transform: uppercase;
+}
+
+
+.form-section .main-box .form-section .left .subject input{
+    border: 1px solid #444348;
+    background: #1a1a1a;
+    padding: 13px 35px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.form-section .main-box .form-section .right{
+    padding: 10px 25px 50px 2px;
+    margin-left: -10px;
+}
+
+
+.form-section .main-box .form-section .right .message{
+    
+}
+
+
+.form-section .main-box .form-section .right .message input{
+    border: 1px solid #444348;
+    background: #1a1a1a;
+    padding-top: 2px;
+    padding-right:  90px;
+    padding-bottom: 121px;
+    padding-left: 15px;
+    text-transform: uppercase;
+    
+}
+
+
+.form-section .main-box .form-section .right .btn {
+    justify-content: flex-end !important;
+}
+
+
+.form-section .main-box .form-section .right .btn button{
+    border: 1px solid #008ed6;
+    background: #008ed6;
+    color: white;
+    border-radius: 0;
+    border-radius: 5px !important;
+    font-weight: 400;
+    padding: 5px 20px;
+    justify-content: flex-end ;
+    text-transform: uppercase;
+}
+
+
+/***************************************
+*         form-section CSS end
+*****************************************/
+
+
+
+
+
+/***************************************
+*         map-section CSS start
+*****************************************/
+
+.contact-section  .parent .child-2{
+    position: absolute imo !important;
+    
+    
+ }
+
+
+
+.map-section{
+
+   
+    background: #444348;
+    
+margin-top: 90px;
+
+}
+
+
+.map-section img{
+
+   
+  width: 100%;
+
+}
+
+
+
+
+
+
+
+/***************************************
+*         map-section CSS end
+*****************************************/
+
+
+
+
+
+/***************************************
+*         footer-section CSS start
+*****************************************/
+
+
+
+.footer-section{
+ background: black;
+color: #444348;
+text-align: center;
+padding-top: 25px;
+padding-bottom: 20px;
+}
+
+
+
+.footer-section .container .icon{
+    
+}
+
+.footer-section .container .icon{
+    
+padding: 10px ;
+
+   }
+
+   .footer-section .container .icon .fa{
+    
+    padding-right: 15px ;
+    font-size: 16px;
+    
+       }
+
+       .footer-section .container .icon  .fa-twitter {
+    
+        color: #008ed6;
+        
+           }
+
+
+/***************************************
+*         footer-section CSS end
 *****************************************/
